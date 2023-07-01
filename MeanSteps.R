@@ -22,4 +22,4 @@ median_steps <- median(dfData$TotalSteps)
 # A histogram is appropriate here rather than a barplot. Histograms
 # plot continuous observations which we have with TotalSteps.
 # a barplot isn't appropriate as it would plot discrete categories.
-hist(dfData$TotalSteps, xlab = "Total Steps", main = "Histogram of Daily Total Steps")
+hist(dfData$TotalSteps, xlab = "Total Steps", main = "Histogram of Total Steps - No Imputation")
