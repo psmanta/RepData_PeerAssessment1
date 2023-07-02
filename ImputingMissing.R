@@ -54,3 +54,8 @@ hist(dailySteps_df$DailySteps, xlab = "Total Steps", main = "Histogram - Total S
 mean_steps <- mean(dailySteps_df$DailySteps)
 median_steps <- median(dailySteps_df$DailySteps)
 
+# The next part of the assignment wants us to use the data set with
+# imputed values. So rather than recalculate all this stuff I'm going
+# to write the file out and then read this new file in the next step.
+write.csv(dfData, file = "imputed_data.csv", row.names = TRUE)
+
